@@ -1,0 +1,22 @@
+print("*****Welcome to Canara Bank****")
+trials=3
+
+while trials!=0:
+    pin=int(input("Enter the 4 digit Pin number: "))
+    if pin<999:
+        trials-=1
+        print("You have entered the Wrong pin please Enter correct and you have", trials, " Choices left")
+    else:
+        userChoice=input("D: Deposit or W:Withdraw: ")
+        if userChoice=="D":
+            userDeposit=int(input("Enter the amount to be deposit: "))
+            print(userDeposit,"$ amount is deposited in your account")
+        if userChoice=="W":
+            userWithdraw=int(input("Enter the Amount to Withdraw: "))
+            print(userWithdraw,"$ Amount is Withdrawn from your account")
+    userExit=input("Do you want to Continue:Y/N : ")
+    if userExit=="N":
+        print("Thank you Visit Again")
+        break
+    else:
+        continue
