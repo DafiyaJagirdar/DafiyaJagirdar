@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DafiyaJagirdar
 - 👀 I’m interested in Data Analytics
-- 🌱 I’m currently learning Python,Sql, PowerBI, Tableu
+- 🌱 I’m Aspiring Data Analyst
 - 💞️ I’m looking to collaborate on wordpress Projects 
 - 📫 Reach me via email dafiyajagirdar4@gmail.com...
   
